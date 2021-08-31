@@ -1,0 +1,15 @@
+news_site :
+  eluniversal :
+    url : https://www.eluniversal.com.mx/
+    queries :
+      homepage_article_links: 'h2[class ~= "uniplus"] a[target = _self]'
+  elpais :
+    url : https://www.elpais.com/
+    queries :
+      homepage_article_links : 'h2[class ~= headline] > a'
+  reforma :
+    url : https://www.reforma.com/
+    queries :
+      homepage_article_links : 'h1 a[class ~= ligaonclick]'
+
+
